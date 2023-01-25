@@ -1,12 +1,12 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    MAKEFILE                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+         #
+#    By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 12:04:15 by lgaudino          #+#    #+#              #
-#    Updated: 2023/01/25 12:04:15 by lgaudino         ###   ########.fr        #
+#    Updated: 2023/01/25 18:55:59 by lorenzogaud      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,8 +19,7 @@ SRCS			=	ft_isalnum.c ft_isprint.c ft_memcmp.c ft_strjoin.c \
 					ft_toupper.c ft_calloc.c ft_isdigit.c ft_memchr.c \
 					ft_memset.c ft_strtrim.c ft_split.c ft_itoa.c \
 					ft_strmapi.c ft_striteri.c ft_putchar_fd.c \
-					ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c \
-					ft_uintlen.c ft_uiptrlen.c ft_intlen.c ft_hexlen.c
+					ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
 OBJS			= $(SRCS:.c=.o)
 
