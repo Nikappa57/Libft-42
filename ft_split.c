@@ -1,14 +1,4 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/25 12:19:02 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 13:02:33 by lgaudino         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+// 42 h
 
 #include "libft.h"
 
@@ -46,9 +36,8 @@ char	**ft_split(char const *s, char c)
 	size_t	end;
 	size_t	i;
 
-	subnbr = ft_subnbr(*s, c);
-	result = malloc(subnbr + 1);
-	if (!result)
+	subnbr = ft_subnbr(s, c);
+	if (!(result = malloc(subnbr + 1)))
 		return (NULL);
 	i = 0;
 	end = 0;
@@ -57,12 +46,14 @@ char	**ft_split(char const *s, char c)
 	{
 		if (s[end] == c || !s[end])
 		{
-			result[i] = ft_strtrim(ft_substr(s, start, end - start), (char *)c);
-			if (result[i++] == NULL)
+			if (!(result[i++] = ft_strtrim(ft_substr(s, start, end - start), (char *)&c)))
 				return (NULL);
 			start = end;
 		}
 		end++;
 	}
+	result[i] = 0;
 	return (result);
 }
+
+
