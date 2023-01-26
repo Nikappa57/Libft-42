@@ -1,8 +1,18 @@
-// 42 h
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_split.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/01/26 14:09:31 by lorenzogaud       #+#    #+#             */
+/*   Updated: 2023/01/26 23:15:36 by lorenzogaud      ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "libft.h"
 
-static size_t	ft_subnbr(char const *s, char c)
+static size_t	ft_sub_len(char const *s, char c)
 {
 	size_t	result;
 
@@ -28,32 +38,41 @@ static size_t	ft_subnbr(char const *s, char c)
 	return (result);
 }
 
-char	**ft_split(char const *s, char c)
+static char	**ft_sub_strs(char const *s, size_t sub_len, char c, char	**dst)
 {
-	char	**result;
-	size_t	subnbr;
 	size_t	start;
 	size_t	end;
 	size_t	i;
 
-	subnbr = ft_subnbr(s, c);
-	if (!(result = malloc(subnbr + 1)))
-		return (NULL);
 	i = 0;
-	end = 0;
+	end = 1;
 	start = 0;
-	while (i < subnbr)
+	while (i < sub_len)
 	{
-		if (s[end] == c || !s[end])
+		if ((s[end - 1] != c && s[end] == c) || !s[end])
 		{
-			if (!(result[i++] = ft_strtrim(ft_substr(s, start, end - start), (char *)&c)))
+			dst[i] = ft_strtrim(
+					ft_substr(s, start, end - start + 1), (char *)&c);
+			if (!dst[i++])
 				return (NULL);
-			start = end;
+			start = end + 1;
 		}
 		end++;
 	}
-	result[i] = 0;
-	return (result);
+	dst[i] = 0;
+	return (dst);
 }
 
+char	**ft_split(char const *s, char c)
+{
+	char	**result;
+	size_t	sub_len;
 
+	if (!s)
+		return (NULL);
+	sub_len = ft_sub_len(s, c);
+	result = (char **)malloc(sizeof(char *) * (sub_len + 1));
+	if (!result)
+		return (NULL);
+	return (ft_sub_strs(s, sub_len, c, result));
+}
