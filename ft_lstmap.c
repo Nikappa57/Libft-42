@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 12:23:37 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/27 12:40:38 by lgaudino         ###   ########.fr       */
+/*   Updated: 2023/01/27 15:42:50 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 		temp_elem = ft_lstnew((*f)(lst->content));
 		if (!temp_elem)
 		{
-			ft_lstclear(lst_map, del);
+			ft_lstclear(&lst_map, del);
 			return (NULL);
 		}
 		ft_lstadd_back(&lst_map, temp_elem);

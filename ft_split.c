@@ -6,7 +6,7 @@
 /*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/26 14:09:31 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/26 23:15:36 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/01/29 01:24:58 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,10 +25,9 @@ static size_t	ft_sub_len(char const *s, char c)
 	{
 		if (!*s || *s == c)
 		{
-			result += 1;
-			if (*s == c)
-				while (*s == c)
-					s++;
+			result++;
+			while (*s == c && *s)
+				s++;
 			if (!*s)
 				break ;
 		}
@@ -38,8 +37,9 @@ static size_t	ft_sub_len(char const *s, char c)
 	return (result);
 }
 
-static char	**ft_sub_strs(char const *s, size_t sub_len, char c, char	**dst)
+static char	**ft_sub_strs(char const *s, size_t sub_len, char c, char **dst)
 {
+	char	*temp;
 	size_t	start;
 	size_t	end;
 	size_t	i;
@@ -51,8 +51,11 @@ static char	**ft_sub_strs(char const *s, size_t sub_len, char c, char	**dst)
 	{
 		if ((s[end - 1] != c && s[end] == c) || !s[end])
 		{
-			dst[i] = ft_strtrim(
-					ft_substr(s, start, end - start + 1), (char *)&c);
+			temp = ft_substr(s, start, end - start + 1);
+			if (!temp)
+				return (NULL);
+			dst[i] = ft_strtrim(temp, (char *)&c);
+			free(temp);
 			if (!dst[i++])
 				return (NULL);
 			start = end + 1;

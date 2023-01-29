@@ -3,16 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:22:09 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 10:22:11 by lgaudino         ###   ########.fr       */
+/*   Updated: 2023/01/29 00:24:23 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 char	*ft_strchr(const char *s, int c)
 {
-	while (*s != c)
+	while (*s != (char)c)
 		if (!*s++)
 			return (0);
 	return ((char *)s);
