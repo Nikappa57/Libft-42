@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:22:48 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/26 13:05:20 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:35:06 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

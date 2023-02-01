@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+         #
+#    By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 12:04:15 by lgaudino          #+#    #+#              #
-#    Updated: 2023/01/26 15:41:39 by lorenzogaud      ###   ########.fr        #
+#    Updated: 2023/02/01 12:35:42 by lgaudino         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 

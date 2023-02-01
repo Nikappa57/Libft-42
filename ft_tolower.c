@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:23:19 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/26 13:09:53 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:35:20 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

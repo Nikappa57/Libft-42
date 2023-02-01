@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:21:10 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 22:44:47 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:33:52 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

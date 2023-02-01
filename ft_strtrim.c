@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:52:05 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/26 16:07:45 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:35:15 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

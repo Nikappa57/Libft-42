@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:21:57 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/28 18:47:01 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:33:48 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

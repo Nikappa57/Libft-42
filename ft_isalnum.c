@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 11:28:02 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 18:38:12 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:32:57 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

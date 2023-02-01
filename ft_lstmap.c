@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstmap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 12:23:37 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/27 15:42:50 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:33:32 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/25 22:43:39 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/25 22:55:36 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:33:43 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:33:43 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

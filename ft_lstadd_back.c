@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_back.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 11:28:30 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/27 15:54:17 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:33:16 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

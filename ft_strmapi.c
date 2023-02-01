@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/26 14:06:34 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/26 15:08:59 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:35:01 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:35:03 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

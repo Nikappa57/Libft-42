@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/26 14:08:03 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/26 14:32:55 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:33:57 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:33:59 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

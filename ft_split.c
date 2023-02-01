@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/26 14:09:31 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/29 01:24:58 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:34:26 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:34:26 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/23 11:44:19 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 22:59:47 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:32:43 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

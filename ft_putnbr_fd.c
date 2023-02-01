@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/25 23:05:02 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/26 16:18:59 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:34:11 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:34:12 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

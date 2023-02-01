@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:23:09 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/26 12:46:14 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:35:10 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

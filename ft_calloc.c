@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:17:52 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/25 22:50:16 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/02/01 12:02:32 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

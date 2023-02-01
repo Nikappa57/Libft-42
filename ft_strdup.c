@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
+/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/01/25 22:54:21 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/01/25 23:14:23 by lorenzogaud      ###   ########.fr       */
+/*   Created: 2023/02/01 12:34:34 by lgaudino          #+#    #+#             */
+/*   Updated: 2023/02/01 12:34:36 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
