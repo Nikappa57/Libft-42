@@ -6,7 +6,7 @@
 /*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/27 11:43:46 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/01/27 12:13:58 by lgaudino         ###   ########.fr       */
+/*   Updated: 2023/02/01 11:19:46 by lgaudino         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
-	if (!lst)
+	if (!lst || !del)
 		return ;
 	if ((*lst)->next)
 		ft_lstclear(&(*lst)->next, del);
