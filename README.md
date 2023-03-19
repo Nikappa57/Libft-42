@@ -12,6 +12,6 @@
 <p align="center">
 This project is about coding a C library.
 It will contain a lot of general purpose functions your programs will rely upon.</p>
-<p align="center">Version: 15</p>
+<p align="center"><img src="https://img.shields.io/badge/Version-15-blue?style=for-the-badge"></p>
 
 <p align="center"><a href="./RMfile/en.subject.pdf">Subject</a></p>
