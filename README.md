@@ -1,8 +1,8 @@
 <h1 align="center"> Libft [42 School] </h1>
 
 <p align="center">
-<img href="./RMfile/evaluation.png" alt="Evaluation">
-<p>
+  <img src="./RMfile/evaluation.png" height="100" alt="Evaluation"/>
+</p>
 <!-- <p align="center">
   <a href="https://github.com/JaeSeoKim/badge42">
   <img src="https://badge42.vercel.app/api/v2/cld6lomfp00250fl5aqiuznp2/stats?cursusId=9&coalitionId=piscine"/>
