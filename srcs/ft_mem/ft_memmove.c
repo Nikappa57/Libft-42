@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lgaudino <lgaudino@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 10:22:02 by lgaudino          #+#    #+#             */
-/*   Updated: 2023/02/01 12:33:50 by lgaudino         ###   ########.fr       */
+/*   Updated: 2023/03/22 22:22:06 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

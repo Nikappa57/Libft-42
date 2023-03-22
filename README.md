@@ -1,17 +1,39 @@
-<h1 align="center"> Libft [42 School] </h1>
+<h1 align="center"> Libft [EXTRA] [42 School] </h1>
 
 <p align="center">
-<img href="./RMfile/evaluation.png" alt="Evaluation">
-<p>
-<!-- <p align="center">
-  <a href="https://github.com/JaeSeoKim/badge42">
-  <img src="https://badge42.vercel.app/api/v2/cld6lomfp00250fl5aqiuznp2/stats?cursusId=9&coalitionId=piscine"/>
-  </a>
-</p> -->
-<p align="center">Summary:</p>
-<p align="center">
-This project is about coding a C library.
-It will contain a lot of general purpose functions your programs will rely upon.</p>
-<p align="center">Version: 15</p>
+This is not the project that was submitted, which instead you can find [here]()
+</p>
+<hr>
+<h3>How to use</h3>
 
-<p align="center"><a href="./RMfile/en.subject.pdf">Subject</a></p>
+<p>In your file.c include the header</p>
+<code>#include "libft.h"</code>
+<br><br>
+<p>In your makefile add these lines</p>
+
+<pre><code>
+INCLUDES	=	-I includes -I $(LIBFT_DIR)/includes/
+
+LIBFT		=	$(LIBFT_DIR)libft.a
+LIBFT_DIR	=	libft/
+LIB_FLAGS	=	-L $(LIBFT_DIR) -lft
+
+$(LIBFT):
+			make -C $(LIBFT_DIR)
+</code></pre>
+
+<p>and edit existing lines to get a result like this</p>
+
+<pre><code>
+$(NAME):	$(OBJS) $(LIBFT)
+			$(CC) $(CFLAGS) -o $(NAME) $(OBJS) $(LIB_FLAGS)
+
+clean:
+			make clean -C $(LIBFT_DIR)
+			$(RM) $(OBJS)
+			$(RM) -r $(DIR_OBJS)
+
+fclean:		clean
+			make fclean -C $(LIBFT_DIR)
+			$(RM) $(NAME)
+</code></pre>
