@@ -6,7 +6,7 @@
 #    By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/25 12:04:15 by lgaudino          #+#    #+#              #
-#    Updated: 2023/03/22 23:04:53 by lorenzogaud      ###   ########.fr        #
+#    Updated: 2023/03/23 12:01:29 by lorenzogaud      ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME				=	libft.a
 
 DIR_SRCS			=	srcs
 DIR_OBJS			=	objs
-SUBDIRS				=	ft_is ft_to ft_mem ft_str ft_put ft_lst
+SUBDIRS				=	ft_is ft_to ft_mem ft_str ft_put ft_lst ft_len ft_printf gnl
 
 SRCS_PATHS			=	$(foreach dir, $(SUBDIRS), $(addprefix $(DIR_SRCS)/, $(dir)))
 OBJS_PATHS			=	$(foreach dir, $(SUBDIRS), $(addprefix $(DIR_OBJS)/, $(dir)))
