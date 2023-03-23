@@ -1,10 +1,14 @@
 <h1 align="center"> Libft [EXTRA] [42 School] </h1>
 
 <p align="center">
-This is not the project that was submitted, which instead you can find [here]()
+This is not the project that was submitted, which instead you can find <a href="https://github.com/Nikappa57/Libft-42">here</a>.
 </p>
 <hr>
 <h3>How to use</h3>
+
+<p>Clone this repo</p>
+
+<pre><code>git clone -b EXTRA https://github.com/Nikappa57/Libft-42.git && mv Libft-42 libft</code></pre>
 
 <p>In your file.c include the header</p>
 <code>#include "libft.h"</code>
