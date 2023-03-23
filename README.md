@@ -6,6 +6,10 @@ This is not the project that was submitted, which instead you can find <a href="
 <hr>
 <h3>How to use</h3>
 
+<p>Clone this repo</p>
+
+<pre><code>git clone -b EXTRA https://github.com/Nikappa57/Libft-42.git && mv Libft-42 libft</code></pre>
+
 <p>In your file.c include the header</p>
 <code>#include "libft.h"</code>
 <br><br>
