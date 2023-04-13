@@ -6,13 +6,39 @@
 /*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 23:18:34 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/04/01 18:57:07 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/04/13 12:34:18 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isstrdigit(char *s)
+static int	ft_check_maxmin(const char *str)
+{
+	long int	nbr;
+	int			sign;
+
+	nbr = 0;
+	sign = 1;
+	while (ft_isspace(*str))
+		str++;
+	if (*str == '-')
+	{
+		str++;
+		sign = -1;
+	}
+	else if (*str == '+')
+		str++;
+	while (ft_isdigit(*str))
+		nbr = (nbr * 10) + (*str++ - '0');
+	nbr *= sign;
+	if ((nbr > 2147483647) || (nbr < -2147483648))
+	{
+		return (0);
+	}
+	return (1);
+}
+
+int	ft_isstrdigit(const char *s)
 {
 	int	i;
 
@@ -24,5 +50,5 @@ int	ft_isstrdigit(char *s)
 	while (s[i])
 		if (!ft_isdigit(s[i++]))
 			return (0);
-	return (1);
+	return (ft_check_maxmin(s));
 }
