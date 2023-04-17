@@ -16,7 +16,5 @@ This project is about coding a C library.<br>
 It will contain a lot of general purpose functions your programs will rely upon.</p>
 <p align="center"><img src="https://img.shields.io/badge/Version-15-blue?style=for-the-badge"></p>
 
-<p align="center"><a href="./RMfile/en.subject.pdf">Subject</a></p>
-
 <hr>
 <p align="center">My updated version that I use in the new projects of 42 courses <a href="https://github.com/Nikappa57/Libft-42/tree/EXTRA">here</a>.</p>
