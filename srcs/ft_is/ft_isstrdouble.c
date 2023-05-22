@@ -6,7 +6,7 @@
 /*   By: lorenzogaudino <lorenzogaudino@student.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/29 23:18:34 by lorenzogaud       #+#    #+#             */
-/*   Updated: 2023/04/17 23:36:08 by lorenzogaud      ###   ########.fr       */
+/*   Updated: 2023/04/19 13:30:25 by lorenzogaud      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,8 +25,6 @@ int	ft_isstrdouble(const char *s)
 	{
 		if (s[i] == '.')
 		{
-			if (!(s[i + 1]))
-				return (0);
 			if (dot)
 				return (0);
 			dot = 1;
